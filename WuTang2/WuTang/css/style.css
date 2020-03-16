@@ -1,3 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body {
+  width: 100%;
+  background-image: url(../download.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 h1 {
-  color: pink;
+  color: rgb(255, 251, 35);
+text-align: center;
+font-size: 5rem;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+clear: both;
+}
+select {
+  width: 15%;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  margin-left: 43%;
+  margin-bottom: 1.5rem;
+}
+label{
+  font-size: 3rem;
+color: white;
+}
+button{
+  background-color: gold;
+  width: 15%;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: serif;
 }
